@@ -1,0 +1,14 @@
+
+#Redmine Version : 3.3.2-2 
+#Plug-in : 
+clipboard_image_paste
+redmine_monitoring_controlling
+
+
+cd:// Redmine설치경로/apps/redmine/htdocs/plugins # 경로이동
+이후 설치하고자 하는 플러그인 다운
+
+bundle exec rake redmine:plugins:migrate RAILS_ENV=production #마이그레이션 진행
+bundle install 
+
+
